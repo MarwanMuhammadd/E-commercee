@@ -13,7 +13,6 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
   late final TabController _tabController;
   @override
   void initState() {
-    // TODO: implement initState
     _tabController = TabController(length: 2, vsync: this);
   }
 
