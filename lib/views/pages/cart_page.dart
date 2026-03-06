@@ -42,7 +42,7 @@ class CartPage extends StatelessWidget {
                       (context, index) => Divider(color: AppColors.greyShade),
                 ),
                 SizedBox(height: 16),
-                SubShippingTotal(title: "Subtotal", amount: state.subTotal),
+                SubShippingTotal(title: "Subtotal splsh branch", amount: state.subTotal),
                 SubShippingTotal(title: "Shipping", amount: 10),
                 Dash(
                   dashColor: AppColors.grey,

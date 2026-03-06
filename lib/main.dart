@@ -15,13 +15,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       themeMode: isLightTheme ? ThemeMode.light : ThemeMode.dark,
-      title: 'E-commerce',
+      title: 'E-commerceee splash branch',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
       home: CustomBottomNavBar(),
 
-      // onGenerateRoute: AppRouter.onGenerateRoute,
       onGenerateRoute: AppRouter.onGenerateRoute,
     );
   }
