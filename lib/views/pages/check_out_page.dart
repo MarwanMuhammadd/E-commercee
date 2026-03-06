@@ -45,7 +45,7 @@ class CheckOutPage extends StatelessWidget {
         },
       );
     } else {
-      return AddressAndPayment(title: "Add Payment Address", isPayment: true);
+      return AddressAndPayment(title: "Add  Address", isPayment: true);
     }
   }
 
@@ -77,7 +77,7 @@ class CheckOutPage extends StatelessWidget {
                   final chosenPaymentCard = state.chosenPaymentCards;
                   return Padding(
                     padding: const EdgeInsets.symmetric(
-                      horizontal: 16.0,
+                      horizontal: 15.0,
                       vertical: 4,
                     ),
                     child: SafeArea(
