@@ -26,7 +26,7 @@ class _CustomBottomNavBarState extends State<CustomBottomNavBar> {
         leading: Padding(
           padding: const EdgeInsets.only(left: 8.0),
           child: CircleAvatar(
-            radius: 30,
+            radius: 20,
             backgroundImage: NetworkImage(
               "https://scontent-hbe1-1.cdninstagram.com/v/t51.2885-19/451382748_1043107513938378_868927710872673827_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-hbe1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2QHn37S7hcSV4_rtutqM68NXXKbmU8IxLHbhhsDsl7rMkdrXqOwIbgQ2BYPXKWoXGqQ&_nc_ohc=3QbyTlExCBQQ7kNvwHHahPw&_nc_gid=-lDHPRJBtpNX_XaeXRG8RQ&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_AffJuchz8lKRQsCHO8MA4Wq0clB9rpylhSqT1A2dwy1OpQ&oe=68FFD7F3&_nc_sid=7a9f4b"
             ),
@@ -36,13 +36,13 @@ class _CustomBottomNavBarState extends State<CustomBottomNavBar> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              'Marwan Muhammad',
+              'ali Muhammad',
               style: Theme.of(
                 context,
               ).textTheme.bodySmall!.copyWith(fontWeight: FontWeight.bold),
             ),
             Text(
-              'Let\'s go shopping',
+              'Let\'s do shopping',
               style: Theme.of(
                 context,
               ).textTheme.bodySmall!.copyWith(color: Colors.grey),
@@ -75,6 +75,8 @@ class _CustomBottomNavBarState extends State<CustomBottomNavBar> {
                 final cubit = HomeCubit();
                 cubit.getData();
                 return cubit;
+
+                
               },
               child: HomePage(),
             ),
