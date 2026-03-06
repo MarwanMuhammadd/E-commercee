@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       themeMode: isLightTheme ? ThemeMode.light : ThemeMode.dark,
-      title: 'do some changes for splash branch',
+      title: ' test branch say heyyyy',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
